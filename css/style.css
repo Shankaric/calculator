@@ -1,3 +1,61 @@
 body{
-    background-color: rgba(117, 138, 181, 0.736);
+    background-color: white;
+}
+.overall{
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 400px;
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(11 11 11 / 75%);
+    box-shadow: 5px 5px 5px 5px #2f33327c;
+    border-radius: 10px;
+}
+.display{
+    background-color: grey;
+    height: 80px;
+    border-radius: 10px;
+}
+.allbuttons{
+    margin-top: 10px;
+    height: 290px;
+    display: grid;
+    gap: 5px;
+   
+    grid-template-columns: repeat(4, 1fr);
+    /* background-color: rgba(0, 0, 0, 0.355); */
+}
+.btnone{
+    visibility: hidden;
+}
+.btns{
+    background-color: transparent;
+    color:white;
+    border-color: rgba(121, 50, 121, 0.152);
+    background-color: #04040478;
+}
+.btnc{
+    background-color: rgba(255, 166, 0, 0.503);
+}
+.btnac{
+    background-color: rgba(255, 0, 0, 0.545);
+    width: 200%;
+}
+.btnequal{
+    width: 210%;
+    background-color: rgba(0, 128, 0, 0.593);
+}
+.display{
+    color: white;
+    text-align: right;
+    padding:0px 20px 0px 20px;
+}
+.total{
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+.total{
+    position: fixed;
+    font-size: 20px;
 }
