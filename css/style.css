@@ -50,13 +50,12 @@ body{
     text-align: right;
     padding: 0px 20px 0px 20px;
     font-weight: bold;
+    overflow: hidden;
 }
 .total{
     text-align: left;
     color: black;
     font-weight: bold;
-}
-.total{
-    position: fixed;
+    overflow: hidden;
     font-size: 20px;
 }
