@@ -46,9 +46,10 @@ body{
     background-color: rgba(0, 128, 0, 0.593);
 }
 .display{
-    color: white;
+    color: #ccbbbb;
     text-align: right;
-    padding:0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
+    font-weight: bold;
 }
 .total{
     text-align: left;

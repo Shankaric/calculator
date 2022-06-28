@@ -47,6 +47,7 @@ btnops.forEach(function(ops) {              //when click on operators
                 result=fvaluenumber+svaluenumber;
                 console.log(result);
                 total.innerHTML=result;
+             
             }
            else if(operation=="-"){
             result=fvaluenumber-svaluenumber;
@@ -68,13 +69,13 @@ btnops.forEach(function(ops) {              //when click on operators
            }
             // console.log(secondval.innerHTML);
           
-            firstval.innerHTML= disfirstval+ops.innerHTML+dissecondval;
-            secondval.innerHTML= '0';
+            // firstval.innerHTML= disfirstval+ops.innerHTML+dissecondval;
+            // secondval.innerHTML= '0';
               // result=(firstval.value) * (secondval.value);
             //   // console.log(result);
             //   console.log(disfirstval);
             //   console.log(dissecondval);
-        
+
         });
 
     });
